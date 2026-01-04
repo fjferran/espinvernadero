@@ -1,16 +1,62 @@
-# React + Vite
+# 🌿 Cultivo Inteligente con ESP32
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Bienvenido al repositorio oficial del **Tutorial de Cultivo Inteligente**. Esta aplicación web te guiará paso a paso para construir tu propio sistema de control de luces y monitoreo de temperatura/humedad usadno un ESP32.
 
-Currently, two official plugins are available:
+![Preview](public/vite.svg)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 📋 Requisitos Previos
 
-## React Compiler
+Para ejecutar esta guía en tu ordenador, necesitas tener instalado:
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+1.  **Node.js**: [Descargar aquí](https://nodejs.org/) (La versión LTS recomendada).
+2.  **Git** (Opcional, si prefieres descargar como ZIP).
 
-## Expanding the ESLint configuration
+## 🚀 Instalación y Uso
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+Sigue estos pasos para arrancar la aplicación en local:
+
+### Opción A: Usando Git (Recomendado)
+Abre tu terminal y ejecuta:
+
+```bash
+# 1. Clonar el repositorio
+git clone https://github.com/TU_USUARIO/esp32-cannabis-guide.git
+
+# 2. Entrar en la carpeta
+cd esp32-cannabis-guide
+
+# 3. Instalar dependencias
+npm install
+
+# 4. Arrancar la aplicación
+npm run dev
+```
+
+### Opción B: Descargar ZIP
+1.  Pulsa en el botón verde **Code** > **Download ZIP**.
+2.  Descomprime el archivo.
+3.  Abre una terminal en esa carpeta.
+4.  Ejecuta `npm install` y luego `npm run dev`.
+
+## 🌐 Ver la Guía
+Una vez ejecutes `npm run dev`, verás un mensaje como este:
+
+```
+  ➜  Local:   http://localhost:5173/
+  ➜  Network: use --host to expose
+```
+
+Simplemente abre **http://localhost:5173** en tu navegador.
+
+## 🛠 Qué Aprenderás
+
+- **Hardware**: Lista de compra y conexiones paso a paso.
+- **Opción A (Visual)**: Programación con **ArduinoBlocks** (Sin código).
+- **Opción B (Experto)**: Código **C++** profesional y Servidor Web embebido.
+- **Despliegue**: Cómo instalar todo en tu ESP32 DevKit V1.
+
+## 🤝 Contribuir
+Si tienes mejoras, ¡haz un Fork y envíanos un Pull Request! Todo el contenido está en `src/data/tutorialSteps.js`.
+
+---
+*Proyecto de Código Abierto para la Comunidad Agrícola.*
